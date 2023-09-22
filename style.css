@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    height: 7vh;
+    width: 100%;
+    background-color: #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+nav h4{
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    transition: all ease 0.3s;
+}
+
+nav h4:hover{
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+nav i{
+    color: white;
+    font-size: 17px;
+}
+
+.offer{
+    text-align: center;
+    height: 7vh;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.offer i {
+    color: royalblue;
+}
+
+.offer a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.center{
+    background-color: #F5F5F7;
+    height: 85vh;
+}
+
+.center h1{
+    padding-top:4%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: sf pro display;
+}
+
+.center h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: sf pro display;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: royalblue;
+    cursor: pointer;
+}
+
+.linking{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.bgimg{
+    background-image: url(https://www.apple.com/v/home/bc/images/heroes/macbook-air-15/hero_macbook_air_15__x63n8tqcpo2u_mediumtall.jpg);
+    background-position: 50% 75%;
+    background-size: 110%;
+    height: 45vh;
+    width: 100%;
+    margin-top: 3%;
+    /* position: relative; */
+    /* border: 2px solid red; */
+}
+
+
+
+
